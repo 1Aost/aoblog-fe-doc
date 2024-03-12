@@ -1,16 +1,19 @@
 [
   {
-    "text": "Guide",
-    "link": "/guide/",
-    "activeMatch": "/guide/"
+    "text": "首页",
+    "link": "/"
   },
   {
-    "text": "Hello World",
-    "link": "/hello/",
-    "activeMatch": "/hello/"
-  },
-  {
-    "text": "API",
-    "link": "https://rspress.dev/api/index.html"
+    "text": "多级菜单",
+    "items": [
+      {
+        "text": "子菜单1",
+        "link": "/"
+      },
+      {
+        "text": "子菜单2",
+        "link": "/"
+      }
+    ]
   }
 ]
