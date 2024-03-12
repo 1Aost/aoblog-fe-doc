@@ -1,1 +1,8 @@
-["index"]
+[
+    "intro",
+    {
+        "type": "dir",
+        "name": "basic",
+        "label": "标准组件"
+    }
+]
