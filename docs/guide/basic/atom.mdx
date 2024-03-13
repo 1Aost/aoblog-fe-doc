@@ -12,3 +12,43 @@
 #### 用法
 
 <code src="@/demos/Display/ActionRenderDemo.tsx" />
+
+#### API
+
+
+### FilterSelect
+
+#### 用法
+
+```ts
+<FilterSelect
+  prefix="Prefix"
+  placeholder="select"
+  style={{ width: "200px" }}
+  options={[
+    { label: "Option 1", value: "1" },
+    { label: "Option 2", value: "2" },
+    { label: "Option 3", value: "3" },
+  ]}
+  value="1,2"
+  onChange={value => console.log(value)}
+/>
+```
+
+#### API
+
+
+
+### HeaderGroup
+
+快速创建一个带有标签，子元素和额外内容的头部组件
+
+#### 用法
+
+```ts
+<HeaderGroup label="Label" extra="Extra">
+  <button>Button</button>
+</HeaderGroup>
+```
+
+#### API
