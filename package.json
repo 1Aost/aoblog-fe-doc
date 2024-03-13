@@ -13,7 +13,6 @@
     "rspress": "^1.0.0"
   },
   "devDependencies": {
-    "@rspress/plugin-api-docgen": "^1.14.0",
     "@rspress/plugin-preview": "^1.14.0",
     "@types/node": "^16"
   }
